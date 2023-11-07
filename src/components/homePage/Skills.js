@@ -65,11 +65,11 @@ const skills = [
     name: "Sass",
     link: "https://sass-lang.com/",
   },
-  // {
-  //   logo: "https://img.icons8.com/color/80/000000/nodejs.png",
-  //   name: "NodeJS",
-  //   link: "https://nodejs.org/en/docs/",
-  // },
+  {
+    logo: "https://img.icons8.com/color/80/000000/nodejs.png",
+    name: "NodeJS",
+    link: "https://nodejs.org/en/docs/",
+  },
   // {
   //   logo:
   //     "https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png",
