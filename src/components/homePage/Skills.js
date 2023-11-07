@@ -60,11 +60,11 @@ const skills = [
     name: "Redux/Redux-thunk/Redux-Saga",
     link: "https://redux.js.org/",
   },
-  {
-    logo: "/images/skills/sass.png",
-    name: "Sass",
-    link: "https://sass-lang.com/",
-  },
+  // {
+  //   logo: "/images/skills/sass.png",
+  //   name: "Sass",
+  //   link: "https://sass-lang.com/",
+  // },
   {
     logo: "https://img.icons8.com/color/80/000000/nodejs.png",
     name: "NodeJS",
