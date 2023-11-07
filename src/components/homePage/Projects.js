@@ -6,6 +6,9 @@ import { scrollReveal } from "../../animation";
 import { useScroll } from "./useScroll";
 import Badge from "react-bootstrap/Badge";
 
+
+
+
 const myProjects = [
   // {
   //   // image: "/images/img1.jpg",
