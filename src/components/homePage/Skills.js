@@ -65,11 +65,11 @@ const skills = [
   //   name: "Sass",
   //   link: "https://sass-lang.com/",
   // },
-  {
-    logo: "https://img.icons8.com/color/80/000000/nodejs.png",
-    name: "NodeJS",
-    link: "https://nodejs.org/en/docs/",
-  },
+  // {
+  //   logo: "https://img.icons8.com/color/80/000000/nodejs.png",
+  //   name: "NodeJS",
+  //   link: "https://nodejs.org/en/docs/",
+  // },
   // {
   //   logo:
   //     "https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png",
@@ -114,10 +114,10 @@ const Skills = () => {
             return (
               <Col>
                 <div className="skills">
-                  <img src={skill.logo} alt="" />
+                  <img src={skill.logo} alt="Something's Wrong" />
                   <a href={skill.link} target="_blank" rel="noreferrer">
                     {" "}
-                    <h6>{skill.name}</h6>{" "}
+                    <h6 style={{textAlign: "center"}}>{skill.name}</h6>{" "}
                   </a>
                 </div>
               </Col>

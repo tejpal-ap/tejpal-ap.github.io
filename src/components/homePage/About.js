@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <motion.div id="about" className="about pb-6 pt-6">
-      <img className="skills-img" src={SkillSvg} alt="" />
+      {/* <img className="skills-img" src={SkillSvg} alt="" /> */}
 
       <motion.div
         variants={window.innerWidth > 767 ? scrollReveal : null}
@@ -26,7 +26,7 @@ const About = () => {
           <Col className="p-0 text-center" md={5}>
             <img
               className="about-img"
-              // src="https://avatars.githubusercontent.com/u/25584421?v=4"
+              src="https://avatars.githubusercontent.com/u/101542038?s=400&u=ce0db955ee4c8f4728e1f6e48136b2deed5abb12&v=4"
               // src="https://avatars.githubusercontent.com/u/25584421?v=4"
 
               alt="profile_pic"
@@ -46,12 +46,12 @@ const About = () => {
               </p>
               <div className="d-flex align-items-center resume-section ">
                 <h6>Resume :</h6>
-                <a
+                {/* <a
                   href="https://tejpalTomerR.github.io/Resume/Resume.pdf"
                   target="_blank"
-                >
+                > */}
                   View
-                </a>
+                {/* </a> */}
               </div>
               <div className="mt-5">
                 <Row className="tabs mb-2">
