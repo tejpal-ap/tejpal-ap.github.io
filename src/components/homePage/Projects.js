@@ -49,16 +49,16 @@ const myProjects = [
   //   badge: "ReactJS",
   //   // demoLink: "https://headphoonestore.netlify.app/",
   // },
-  // {
-  //   // image: "/images/Screenshot 2020-10-14 115302.jpg",
-  //   title: "Realtime Chat",
-  //   description:
-  //     "By using Socket.IO and Nodejs, I build a realtime chat engine which is also connected to MongoDB via Mlab so each message is stored in the database.",
-  //   source: "https://github.com/tejpalTomerR/socket-chat",
-  //   demoLink: "https://local-chat-demo.herokuapp.com/",
-  //   badge: "NodeJs",
-  //   // liveweb: "https://local-chat-demo.herokuapp.com/",
-  // },
+  {
+    // image: "/images/Screenshot 2020-10-14 115302.jpg",
+    title: "Realtime Chat",
+    description:
+      "By using Socket.IO and Nodejs, I build a realtime chat engine which is also connected to MongoDB via Mlab so each message is stored in the database.",
+    source: "https://github.com/tejpalTomerR/socket-chat",
+    demoLink: "https://local-chat-demo.herokuapp.com/",
+    badge: "NodeJs",
+    // liveweb: "https://local-chat-demo.herokuapp.com/",
+  },
 ];
 
 const Projects = () => {
