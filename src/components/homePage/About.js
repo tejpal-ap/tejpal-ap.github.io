@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <motion.div id="about" className="about pb-6 pt-6">
-      {/* <img className="skills-img" src={SkillSvg} alt="" /> */}
+      <img className="skills-img" src={SkillSvg} alt="" />
 
       <motion.div
         variants={window.innerWidth > 767 ? scrollReveal : null}
